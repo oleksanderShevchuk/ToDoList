@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList.Core\ToDoList.Core.csproj" />
+    <ProjectReference Include="..\ToDoList.Models\ToDoList.Models.csproj" />
+  </ItemGroup>
+
 </Project>
